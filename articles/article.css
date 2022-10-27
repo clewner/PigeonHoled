@@ -10,6 +10,10 @@ p{
     margin-bottom:25px;
 }
 
+.logoimg{
+    vertical-align: middle;
+}
+
 .firstparagraph::first-letter {
     float: left;
     font-family: Georgia, serif;
