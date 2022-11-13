@@ -183,3 +183,149 @@ a{
 .imghovers:hover {
 	opacity: .7;
 }
+
+
+#mc_embed_signup{
+    top:120px;
+    display: block;
+    width:400px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    margin:0;
+    
+    line-height:normal;
+    text-align: center;
+    background-color: #fefbf8;
+    padding:30px;
+    border-radius:15px;
+   
+}
+h3{
+    margin: auto;
+    color:black;
+    line-height:normal;
+    padding:0;
+    text-align: center;
+    display: inline;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+    position: relative;
+    
+}
+
+.mc-field-group{
+    padding:0;
+    margin:0;
+
+}
+
+#mc_embed_signup_scroll{
+    text-align: center;
+}
+
+
+.paragraphcontain{
+    
+    width:250px;
+    margin: auto;
+    text-align: center;
+    padding:0;
+    margin-bottom:0;
+    margin-top:17px;
+    margin-bottom:13px;
+    
+    
+}
+
+.subscribedesc{
+    font-family: 'Jost', sans-serif;
+    font-size:18px;
+    color:grey;
+    padding:0;
+    margin:0;
+    
+    
+}
+
+
+
+.required{
+    text-align: center;
+    margin:0;
+    font-family: 'Jost', sans-serif;
+    font-weight:400;
+    width: calc(100% - 20px);
+    outline: none;
+    margin-top:13px;
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    transition: all 0.4s ease;
+    height: 50px;
+}
+
+.required:focus {
+    border-color: #e7a64c;
+}
+
+.brandingLogo{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+input[type="submit"] {
+    height:50px;
+    font-family: 'Jost', sans-serif;
+    border: 1px solid #e7a64c;
+    background-color: transparent;
+    color: #e7a64c;
+    width:100%;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    
+    margin-top:15px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+input.button {
+    background-image: linear-gradient(0, #e7a64c, #e7a64c);
+    background-size: 0;
+    transition: .6s;
+    background-repeat: no-repeat;
+}
+
+input.button:hover {
+    background-size: 100%;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+#mce-responses{
+    font-family: 'Jost', sans-serif;
+    width:350px;
+    
+    margin:auto;
+    
+}
+#mce-error-response{
+    padding-top:25px;
+    color:red;
+}
+
+#mce-success-response{
+    padding-top:25px;
+    color:#28a745;
+}
