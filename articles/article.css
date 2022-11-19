@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,700;1,7..72,700&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RecklessNeue-Heavy.ttf);
+}
 
 
 html{
@@ -136,31 +141,90 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     margin-bottom:5px;
     padding:0;
     position: relative;
-    font-family: 'Jost', sans-serif;
-    font-weight:600;
-    font-size: 35px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-family: myFirstFont;
+    font-weight:700;
+    font-size: 40px;
+    padding-bottom:4px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(214, 214, 214);
 }
 
 .author{
     font-weight:lighter;
-    font-size:17px;
+    font-size:15px;
     color:#9b9b9b;
+    font-style: italic;
     font-family: Georgia, serif;
 }
 
 .articleheader{
-    top:120px;
+    
+    top:40px;
     display: block;
     width:600px;
-    position:absolute;
+    position:relative;
     left:50%;
     transform: translateX(-50%);
 }
 
+.firstimgwrapper{
+    top:50px;
+    width:600px;
+    position: relative;
+    display:block;
+    left:50%;
+    
+    transform: translateX(-50%);
+    
+}
+
+.firstimg{
+    width:100%;
+}
+
+.prefacewrapper{
+    display: block;
+    width:100%;
+    
+    
+}
+
+.prefacewrappertwo{
+    margin:auto;
+    width:560px;
+    
+
+}
+
+.preface{
+    font-weight:lighter;
+    color:#4b4b4b;
+    background-color: #fefbf8;
+    padding:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-left: 4px solid #c99244;
+    font-family: Georgia, serif;
+    
+}
+
+.imgcredit{
+    font-weight:lighter;
+    font-size:13px;
+    color:#9b9b9b;
+    font-style: italic;
+    font-family: Georgia, serif;
+    display: block;
+}
+
+
+
 .articlebody{
     
     z-index:0;
-    top: 130px;
+    top: 60px;
     width: 600px;
     position: relative;
     left:50%;
@@ -174,7 +238,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
 
 .bolds{
     font-weight:600;
-    font-size:1.1em;
+    
     letter-spacing:0em;
     word-spacing:0em;
 }
@@ -199,7 +263,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     background-color: rgb(255, 255, 255);
     position:relative;
     height:150px;
-    top: 130px;
+    top: 40px;
     display: flex;
     align-items: center;
     
