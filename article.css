@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,700;1,7..72,700&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/RecklessNeue-Heavy.ttf);
+}
+
+
+html{
+    overflow-x: hidden;
+    margin:0;
+   padding:0;
+   
+   
+}
+
+body{
+    position: relative;
+    width:100%;
+    padding: 0;
+    
+    margin:0;
+}
+
+p{
+    margin-bottom:25px;
+}
+
+.logoimg{
+    vertical-align: middle;
+}
+
+
+.navbar{
+    position:relative;
+    width:100%;
+    height:80px;
+    display: block;
+    background-color: #fefbf8;
+    line-height:80px;
+
+}
+
+.link{
+    color:black;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:1.1em;
+}
+
+
+
+.firstlink{
+    margin-left:45px;
+}
+
+.otherlinks{
+    left:50%;
+    transform:translateX(-50%);
+    display: inline-block;
+    
+    position:absolute;
+}
+
+
+
+/*For all */
+
+
+.firstparagraph::first-letter {
+    float: left;
+    font-family: Georgia, serif;
+    font-size: 65px;
+    line-height: 35px;
+    padding: 3px;
+    padding-top:10px;
+  }
+
+sup { vertical-align: top; position: relative; top: -0.5em; }
+
+
+.header{
+    top:0;
+    position:absolute;
+    width:100%;
+    display:none;
+    height:55px;
+    line-height:55px;
+    z-index:1;
+    opacity: 0.9;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.fixed {
+    position: fixed;
+    display: none;
+}
+
+.articlebar{
+    display: inline;
+    position:absolute;
+    top:0;
+    margin:0;
+    padding:0;
+    left:50%;
+    transform: translateX(-50%);
+    line-height:55px;
+    font-family: 'Jost', sans-serif;
+    font-weight:600;
+    font-size:19px;
+    color:black;
+}
+
+.articlename{
+    margin:0;
+    margin-bottom:5px;
+    padding:0;
+    position: relative;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-family: myFirstFont;
+    font-weight:700;
+    font-size: 40px;
+    padding-bottom:4px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.author{
+    font-weight:lighter;
+    font-size:15px;
+    color:#9b9b9b;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.articleheader{
+    
+    top:40px;
+    display: block;
+    width:600px;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.firstimgwrapper{
+    top:50px;
+    width:600px;
+    position: relative;
+    display:block;
+    left:50%;
+    
+    transform: translateX(-50%);
+    
+}
+
+.firstimg{
+    width:100%;
+}
+
+.prefacewrapper{
+    display: block;
+    width:100%;
+    
+    
+}
+
+.prefacewrappertwo{
+    margin:auto;
+    width:560px;
+    
+
+}
+
+.preface{
+    font-weight:lighter;
+    color:#4b4b4b;
+    background-color: #fefbf8;
+    padding:10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-left: 4px solid #c99244;
+    font-family: Georgia, serif;
+    
+}
+
+.imgcredit{
+    font-weight:lighter;
+    font-size:13px;
+    color:#9b9b9b;
+    font-style: italic;
+    font-family: Georgia, serif;
+    display: block;
+}
+
+
+
+.articlebody{
+    z-index:0;
+    top: 60px;
+    width: 600px;
+    position: relative;
+    left:50%;
+    transform:translateX(-50%);
+    font-family: Georgia, serif;
+    line-height: calc(1ex / 0.32);
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+}
+
+.bolds{
+    font-weight:600;
+    
+    letter-spacing:0em;
+    word-spacing:0em;
+}
+
+
+
+.iconlinks{
+    text-decoration: none;
+    color:black;
+}
+
+.footer{
+    
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    height:150px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.subscribeicon{
+    margin: 0 auto;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    
+}
+
+
+
+.logoimgheader{
+    vertical-align: middle;
+    margin-left:20px;
+}
+
+
+.email{
+    top:0;
+    margin-left:5px;
+    margin-right:10px;
+}
+
+.person{
+    top:0;
+    margin-left:10px;
+    margin-right:5px;
+
+}
+
+.bottomparts{
+    margin-top:70px;
+    width:100%;
+    border-top: 1px solid rgb(0, 0, 0);
+    line-height: calc(0.82ex / 0.32);
+    font-size: 0.9em;
+    letter-spacing: 0.016em;
+    word-spacing: 0.041em;
+}
+
+
+.othersites{
+    color: #c99244;
+    text-decoration: underline;
+}
