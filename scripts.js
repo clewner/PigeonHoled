@@ -9,7 +9,8 @@ var isMobile;
 
 $(document).ready(function() {
     if(isMobile){
-      $("h1, h2").css("letter-spacing", "-2px");
+      $("h1").css("letter-spacing", "-2px");
+      $("h2").css("letter-spacing", "-1px");
     }
     
     $(".hamburger").click(function(){
