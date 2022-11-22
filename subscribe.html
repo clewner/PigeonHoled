@@ -5,18 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="scripts.js"></script>
     <title>PigeonHoled</title>
 </head>
 <body>
     <nav class="navbar" id ="navbar">
-        <a href= "../" class = "firstlink link"><img class = "logoimg" src = "../img/pigeonhole.png" width = "50" height = "50"></a>
+        
+        <a href= "../" class = "firstlink"><img class = "logoimg" src = "../img/pigeoncrop.png" width = "50" height="41.7"></a>
+        
         <div class = "otherlinks">
             <a href= "../" class = "navlink link">Articles</a>
             <a href= "#" class = "navlink link">Contact</a>
-            <a href= "" class = "navlink link">Subscribe</a>
+            <a href= "subscribe.html" class = "navlink link">Subscribe</a>
             <a href= "#" class = "navlink link">About</a>
         </div>
+        <div class="burgerwrapper">
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </nav>
+    <div id="hiddennavbar">
+        <div class="hiddenlinkwrapper">
+        <a href= "../" class = "hiddenlink">Articles</a>
+        <a href= "#" class = "hiddenlink">Contact</a>
+        <a href= "subscribe.html" class = "hiddenlink">Subscribe</a>
+        <a href= "#" class = "hiddenlink">About</a>
+        </div>
+    </div>
         <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
     <form action="https://pigeonholed.us14.list-manage.com/subscribe/post?u=9305d08c74831b5ef3aa60cb0&amp;id=3a838f4480&amp;f_id=00168ae0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -46,6 +65,6 @@
 <script type='text/javascript' src='editedform.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
-    </nav>
+    
 </body>
 </html>
