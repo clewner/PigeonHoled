@@ -22,9 +22,28 @@
 
 .aipgraph{
     margin-right:25px;
+    width:333px;
+    height:256.5px;
 }
 
 .galoisimg{
     margin-left:15px;
     margin-right:5px;
+    height:256px;
+    width:198px;
 }
+
+@media screen and (max-width:650px) {
+    .aipgraph{
+        width:222px;
+        height:171px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .aipgraph{
+        margin:auto;
+    }
+}
+
+
