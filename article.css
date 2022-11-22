@@ -249,7 +249,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
 
 .articlebody{
     z-index:0;
-    top: 60px;
+    top: 55px;
     width: 600px;
     position: relative;
     left:50%;
@@ -281,7 +281,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     background-color: rgb(255, 255, 255);
     position:relative;
     height:150px;
-    top: 40px;
+    top: 35px;
     display: flex;
     align-items: center;
     
@@ -446,10 +446,12 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
 @media screen and (max-width:650px){
     .articlebody{
         width:400px;
+        top:45px;
     }
 
     .firstimgwrapper{
         width:400px;
+        top:40px;
     }
 
     .articleheader{
@@ -459,6 +461,12 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
         width:360px;
         
     
+    }
+    .articleheader{
+        top:30px;
+    }
+    footer{
+        top:25px;
     }
 }
 
@@ -480,9 +488,15 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     
     }
 }
-@media screen and (max-width:415px) {
+@media screen and (max-width:430px) {
     .articlebar{
         font-size:16px;
+    }
+}
+
+@media screen and (max-width:365px) {
+    .articlebar{
+        font-size:13px;
     }
 }
 @media screen and (max-width:400px){
