@@ -72,7 +72,7 @@ p{
     
     padding:0;
     margin:0;
-    margin-left:4vw;
+    margin-left: min(4vw, 45px);
     
     
 }
@@ -364,7 +364,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     
     position: relative;
     float:right;
-    margin-right:5.3vw;
+    margin-right: min(5.3vw, 45px);
     height:80px;
     
 }
@@ -511,10 +511,10 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
         top:60px;
     }
     .firstlink{
-        margin-left:6vw;
+        margin-left: min(45px, 6vw);
     }
     .burgerwrapper{
-        margin-right:8vw;
+        margin-right: min(45px, 8vw);
     }
 }
 
