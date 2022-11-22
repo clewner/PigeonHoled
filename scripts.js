@@ -1,6 +1,17 @@
-$(document).ready(function() {
+var isMobile;
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ){
+      isMobile = true;
+    }
 
-    console.log("yes")
+$(document).ready(function() {
+    if(isMobile){
+      $("h1, h2").attr("letter-spacing", "-2em");
+    }
+    
     $(".hamburger").click(function(){
       $(this).toggleClass("is-active");
       
