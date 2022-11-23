@@ -6,7 +6,7 @@
 }
 
 @font-face{
-    font-family: replacementMobileFont;
+    font-family: coolfont;
     src: url(../fonts/RecklessNeue-Bold.ttf);
 }
 
@@ -190,7 +190,7 @@ h1{
     
     margin:0;
     padding:0;
-    font-family:replacementMobileFont;
+    font-family:coolfont;
     font-size: 40px;
     font-weight:600;
     
