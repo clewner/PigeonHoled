@@ -190,7 +190,7 @@ h1{
     
     margin:0;
     padding:0;
-    font-family:coolfont;
+    font-family: coolfont;
     font-size: 40px;
     font-weight:600;
     
@@ -327,12 +327,15 @@ a{
 
 
 #mc_embed_signup{
-    top:120px;
+    box-shadow:  7px 7px 14px #666666,
+             -7px -7px 14px #ffffff;
+    top: 50vh;
+
     display: block;
     width:400px;
     position: absolute;
     left:50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     margin:0;
     
     line-height:normal;
@@ -589,6 +592,41 @@ input:focus {
     }
 }
 
+
+/* This is for subsribe */
+
+@media screen and (max-width: 530px){
+    #mc_embed_signup{
+        width:350px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #mc_embed_signup{
+        width:270px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #mc_embed_signup{
+        width:240px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    #mc_embed_signup{
+        width:190px;
+    }
+    .paragraphcontain{
+        width:150px;
+    }
+}
+
+
+
+/*end */
+
 @keyframes slideInLeft {
     0% {
       
@@ -613,3 +651,4 @@ input:focus {
       z-index:-10;
     }
   }
+
