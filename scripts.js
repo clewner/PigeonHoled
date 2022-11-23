@@ -13,7 +13,7 @@ $(document).ready(function() {
     
     if(isMobile){
       $("h1").css("letter-spacing", "-2px");
-      $("h2").css("letter-spacing", "-0.5px");
+      $("h2").css("letter-spacing", "-1px");
 
 
     }
