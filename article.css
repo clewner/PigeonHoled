@@ -42,7 +42,7 @@ p{
 }
 
 
-.link{
+.navlink{
     color:black;
     vertical-align: middle;
     text-decoration: none;
@@ -80,10 +80,11 @@ p{
 }
 
 
-.otherlinks a{
+
+.link{
     position: relative;
 }
-.otherlinks a:not(.selected):after{
+.link:not(.selected):after{
     transition: all .25s;
     position: absolute;
     bottom: 0;
@@ -96,7 +97,7 @@ p{
     background: #c99244;
     height: 1px;
   }
-.otherlinks a:not(.selected):hover:after {
+.link:not(.selected):hover:after {
     width: 100%;
   }
 
@@ -252,13 +253,13 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
 .hiddenlink{
     font-size:2em;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     color:black;
     
     font-family: 'Jost', sans-serif;
-    margin-top:50px;
+    margin-top:25px;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom:25px;
 
 }
 
