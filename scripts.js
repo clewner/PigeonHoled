@@ -14,6 +14,7 @@ $(document).ready(function() {
     if(isMobile){
       $("h1").css("letter-spacing", "-2px");
       $("h2").css("letter-spacing", "-1.2px");
+      $("h3").css("letter-spacing", "-1.2px");
 
 
     }
