@@ -151,7 +151,7 @@
 	try {
 	    err_style = mc_custom_error_style;
 	} catch(e){
-	    err_style = '#mc_embed_signup input.mce_inline_error { border-color:#dc3545; border-width:thin; border-radius: 3px 3px 0px 0px;} #mc_embed_signup div.mce_inline_error { margin:0; padding: 2px 5px; background-color:#dc3545; font-family: "Jost", sans-serif; font-weight: bold; z-index: 1; color:#fff; border-width:0; border-radius: 0px 0px 3px 3px;}';
+	    err_style = '#mc_embed_signup input.mce_inline_error { border-color:#dc3545; border-width:thin; border-radius: 3px 3px 0px 0px;} #mc_embed_signup div.mce_inline_error { width:100%; margin:0; padding: 2px 0px; background-color:#dc3545; font-family: "Jost", sans-serif; font-weight: bold; z-index: 1; color:#fff; border-width:0; border-radius: 0px 0px 3px 3px;}';
 	}
 	var head = document.getElementsByTagName('head')[0];
 	var style = document.createElement('style');
