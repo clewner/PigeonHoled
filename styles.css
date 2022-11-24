@@ -37,7 +37,7 @@ body{
 
 }
 
-.link{
+.navlink{
     color: black;
     vertical-align: middle;
     text-decoration: none;
@@ -47,16 +47,13 @@ body{
     font-size:1.1em;
 }
 
-.link:not(.selected):hover{
-    color:#c99244;
-    transition: all 0.25s;
-}
 
 
-.otherlinks a{
+
+.link{
     position: relative;
 }
-.otherlinks a:not(.selected):after{
+.link:not(.selected):after{
     transition: all .25s;
     position: absolute;
     bottom: 0;
@@ -69,7 +66,7 @@ body{
     background: #c99244;
     height: 1px;
   }
-.otherlinks a:not(.selected):hover:after {
+.link:not(.selected):hover:after {
     width: 100%;
   }
   
@@ -111,6 +108,7 @@ body{
     
 }
 
+
 .otherlinks{
     left:50%;
     transform:translateX(-50%);
@@ -122,14 +120,20 @@ body{
 .hiddenlink{
     font-size:2em;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    
     color:black;
     
     font-family: 'Jost', sans-serif;
-    margin-top:50px;
+    margin-top:25px;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom:25px;
 
+}
+
+.link:not(.selected):hover{
+    color:#c99244;
+    transition: all 0.25s;
 }
 
 .hiddenlinkwrapper{
@@ -362,6 +366,9 @@ h3{
 .mc-field-group{
     padding:0;
     margin:0;
+    text-align: center;
+    display: block;
+    
 
 }
 
@@ -398,13 +405,14 @@ h3{
 .required{
     text-align: center;
     margin:0;
+    padding:0;
     font-family: 'Jost', sans-serif;
     font-weight:400;
-    width: calc(100% - 20px);
+    width: calc(100% - 2px);
     outline: none;
     margin-top:13px;
     font-size: 17px;
-    padding-left: 15px;
+    
     border-radius: 5px;
     border: 1px solid lightgrey;
     border-bottom-width: 2px;
@@ -618,6 +626,8 @@ input:focus {
     #mc_embed_signup{
         width:190px;
     }
+
+    
     .paragraphcontain{
         width:150px;
     }
