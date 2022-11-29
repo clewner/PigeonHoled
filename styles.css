@@ -458,6 +458,10 @@ input:focus {
     outline: none;
 }
 
+.subscribefull{
+    overflow:hidden;
+}
+
 #mce-responses{
     font-family: 'Jost', sans-serif;
     width:350px;
