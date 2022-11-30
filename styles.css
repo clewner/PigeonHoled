@@ -326,7 +326,7 @@ a{
 #mc_embed_signup{
     box-shadow:  7px 7px 14px #666666,
              -7px -7px 14px #ffffff;
-    top: 0;
+    top: calc(50vh - 20px);
 
     display: block;
     width:400px;
