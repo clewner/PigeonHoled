@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap');
 
 @font-face {
     font-family: mobileFont;
@@ -116,6 +116,11 @@ body{
     position:absolute;
 }
 
+.othersites{
+    color: #c99244;
+    text-decoration: underline;
+}
+
 
 .hiddenlink{
     font-size:2em;
@@ -187,17 +192,91 @@ body{
     margin-bottom:40px;
 }
 
+.header{
+    top:0;
+    position:absolute;
+    width:100%;
+    display:none;
+    height:55px;
+    line-height:55px;
+    z-index:1;
+    opacity: 0.9;
+    background: #e0e0e0;
+    box-shadow:  0px 20px 40px #bebebe;
+}
+
+.logowrapperheader{
+    vertical-align: middle;
+    display: inline;
+    font-size:0;
+    
+    padding:0;
+    margin:0;
+    margin-left:20px;
+}
+
+.logoimgheader{
+    margin:0;
+    padding:0;
+    
+    font-size:0;
+    vertical-align: middle;
+}
+
+.articlebar{
+    display: inline;
+    position:absolute;
+    top:0;
+    margin:0;
+    padding:0;
+    left:50%;
+    transform: translateX(-50%);
+    line-height:55px;
+    font-family: 'Jost', sans-serif;
+    font-weight:600;
+    font-size:19px;
+    color:black;
+}
+
+.fixed {
+    position: fixed;
+    display: none;
+}
 
 
 h1{
     color:black;
-    
+    word-spacing: 0;
     margin:0;
     padding:0;
     font-family: coolfont;
     font-size: 40px;
     font-weight:600;
     
+}
+
+h4{
+    color:black;
+    word-spacing: 0;
+    margin:0;
+    padding:0;
+    font-family: coolfont;
+    font-size: 39px;
+    font-weight:600;
+    margin-bottom:5px;
+    
+}
+
+h6{
+    color:black;
+    
+    text-align: center;
+    word-spacing: 0;
+    margin:0;
+    padding:0;
+    font-family: coolfont;
+    font-size: 23px;
+    font-weight:600;
 }
 
 #hiddennavbar{
@@ -431,7 +510,7 @@ input[type="submit"] {
     width:100%;
     padding: 12px 0px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     background: transparent;
     cursor: pointer;
     display: inline-block;
@@ -498,6 +577,195 @@ input:focus {
     transform: translateY(-10px) rotate(-45deg);
 }
 
+
+/* about*/
+
+.abouttitlewrap{
+    display: inline-block;
+    width:500px;
+    position: relative;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:10px;
+    
+    left:50%;
+    transform:translateX(-50%);
+    top:20px;
+
+    
+}
+
+
+.meimage{
+    width:46%;
+    position: relative;
+    text-align: center;
+    padding:0;
+    margin:0;
+    left:0;
+    float:left;
+    border-radius: 5px;
+    
+    
+    /*Speech is the representation of the mind, and writing is the representation of speech.*/
+    
+}
+
+.aboutimagecontain{
+    width:100%;
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-bottom:15px;
+    
+}
+
+.imagequote{
+    display: inline-block;
+    width:70%;
+    
+    margin-bottom:15px;
+    margin-top:5px;
+    left:50%;
+    position: relative;
+    transform: translateX(-50%);
+    font-family: Georgia, serif;
+    line-height: calc(1ex / 0.32);
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    color:#4b4b4b;
+}
+
+.quotecontain{
+    text-align: left;
+    display: inline;
+    width:46%;
+    
+    display: block;
+    
+    position: absolute;
+    transform: translateY(-50%);
+    right:0;
+    top:50%;
+    
+    
+}
+
+.aristotlequote{
+    float:left;
+    width:90%;
+    padding:0;
+    margin:0;
+    text-align: center;
+    font-style: italic;
+}
+
+.quotesub{
+    font-size: 0.9em;
+    float:right;
+    padding:0;
+    margin:0;
+    padding-top:8px;
+    
+}
+
+
+
+.aboutbodycontain{
+    width:540px;
+    position: relative;
+    text-align: left;
+    display: block;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.aboutparagraph{
+    text-align: left;
+    padding:0;
+    margin:0;
+    margin-bottom:25px;
+    font-family: Georgia, serif;
+    line-height: calc(1ex / 0.28);
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+}
+
+.extracentraldiv{
+    width:540px;
+    position: relative;
+    text-align: left;
+    display: block;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+    
+}
+
+.interestlist{
+    
+    padding:0;
+    left:0;
+    display: inline-block;
+    font-family: Georgia, serif;
+    line-height: calc(1ex / 0.28);
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    word-spacing: 0.05em;
+    text-align:left;
+}
+
+.interestcontain{
+    background-color: #fefbf8;
+    box-shadow:  7px 7px 14px #666666,
+             -7px -7px 14px #ffffff;
+    border-radius:15px;
+    width:540px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+
+    
+    padding-top:20px;
+    padding-bottom:15px;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+    margin-bottom:35px;
+}
+
+
+.footer{
+    
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    height:150px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+
+.subscribeicon{
+    margin: 0 auto;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    
+}
+
+.iconlinks{
+    text-decoration: none;
+    color:black;
+}
+
 @media screen and (max-width:820px) {
     .otherlinks{
         display: none;
@@ -552,6 +820,21 @@ input:focus {
 }
 
 @media screen and (max-width:630px){
+    h4{
+        font-size:35px;
+    }
+    .aboutbodycontain{
+        width:470px;
+    }
+    .imagequote{
+        width:90%;
+        font-size:1em;
+    }
+    .quotesub{
+        font-size: 0.9em;
+        
+    }
+    
     .postscontain{
         width:300px;
     }
@@ -579,8 +862,66 @@ input:focus {
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:530px){
     
+    .aboutbodycontain{
+        width:400px;
+    }
+    .imagequote{
+        font-size:1em;
+    }
+    .quotesub{
+        font-size: 0.9em;
+        
+    }
+}
+
+@media screen and (max-width:470px){
+    h4{
+        font-size:30px;
+    }
+    .aboutbodycontain{
+        width:340px;
+    }
+    .imagequote{
+        font-size:1em;
+    }
+    .quotesub{
+        font-size: 0.9em;
+        
+    }
+}
+
+
+
+@media screen and (max-width:430px) {
+    .articlebar{
+        font-size:16px;
+    }
+}
+
+
+@media screen and (max-width:365px) {
+    .articlebar{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:400px){
+    h4{
+        font-size:27px;
+    }
+    .abouttitlewrap{
+        top:-10px;
+    }
+    .aboutbodycontain{
+        top:-5px;
+    }
+    .aboutfooter{
+        top:-10px;
+        margin-bottom:10px;
+        height:30px;
+    }
     .navbar{
         height:60px;
         line-height:60px;
@@ -597,6 +938,23 @@ input:focus {
     }
 }
 
+
+@media screen and (max-width:390px){
+    .aboutbodycontain{
+        width:270px;
+    }
+    h4{
+        font-size:25px;
+    }
+    .imagequote{
+        font-size:0.75em;
+    }
+    .quotesub{
+        font-size: 0.75em;
+        
+    }
+
+}
 
 /* This is for subsribe */
 
