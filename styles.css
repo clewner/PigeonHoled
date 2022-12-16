@@ -255,7 +255,7 @@ h1{
     
 }
 
-h4{
+h5{
     color:black;
     word-spacing: 0;
     margin:0;
@@ -945,7 +945,7 @@ input:focus {
 
 @media screen and (max-width:390px){
     .aboutbodycontain{
-        width:270px;
+        width: calc(90vw);
     }
     h4{
         font-size:25px;
