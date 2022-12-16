@@ -26,7 +26,7 @@ $(document).ready(function() {
       $("h1").css("letter-spacing", "-2px");
       $("h2").css("letter-spacing", "-1.2px");
       $("h3").css("letter-spacing", "-1px");
-      $("h4").css("letter-spacing", "-1.2px");
+      $("h5").css("letter-spacing", "-1.2px");
 
 
     }
