@@ -919,10 +919,10 @@ input:focus {
         top:-10px;
     }
     .aboutbodycontain{
-        top:-5px;
+        top:-15px;
     }
     .aboutfooter{
-        top:-10px;
+        top:-20px;
         margin-bottom:10px;
         height:30px;
     }
@@ -945,7 +945,7 @@ input:focus {
 
 @media screen and (max-width:390px){
     .aboutbodycontain{
-        width: calc(90vw);
+        width: calc(82vw);
     }
     h5{
         font-size:25px;
