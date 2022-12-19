@@ -543,7 +543,7 @@ input:focus {
 
 #mce-responses{
     font-family: 'Jost', sans-serif;
-    width:350px;
+    width:100%;
     
     margin:auto;
     
@@ -577,6 +577,20 @@ input:focus {
     transform: translateY(-10px) rotate(-45deg);
 }
 
+/*contact*/
+.contacttitlewrap{
+    display: inline-block;
+    width:500px;
+    position: relative;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top:10px;
+    
+    left:50%;
+    transform:translateX(-50%);
+    top:20px;
+}
+
 
 /* about*/
 
@@ -594,6 +608,8 @@ input:focus {
 
     
 }
+
+
 
 
 .meimage{
