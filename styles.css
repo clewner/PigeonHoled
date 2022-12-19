@@ -538,7 +538,7 @@ input:focus {
 }
 
 .subscribefull{
-    overflow:hidden;
+    overflow-x:hidden;
 }
 
 #mce-responses{
