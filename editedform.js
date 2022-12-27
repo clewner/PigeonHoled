@@ -299,17 +299,17 @@
 		        	// Just lump the error message into the generic response div.
 		            if (index == -1){
 		                $('#mce-'+resp.result+'-response').show();
-		                $('#mce-'+resp.result+'-response').html(msg);      
+		                $('#mce-'+resp.result+'-response').html("Please enter a valid email address");      
 
 		            } else {
 		                var fieldName = $("input[name*='"+fnames[index]+"']").attr('name'); // Make sure this exists (they haven't deleted the fnames array lookup)
 		                var data = {};
-		                data[fieldName] = msg;
+		                data[fieldName] = "Please enter a valid email address";
 		                mc.mce_validator.showErrors(data);
 		            }
 		        } catch(e){
 		            $('#mce-'+resp.result+'-response').show();
-		            $('#mce-'+resp.result+'-response').html(msg);
+		            $('#mce-'+resp.result+'-response').html("Please enter a valid email address");
 		        }
 		    }
 		}
