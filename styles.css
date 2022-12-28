@@ -1030,9 +1030,7 @@ button:focus {
 }
 
 @media screen and (max-width: 470px) {
-  h5 {
-    font-size: 30px;
-  }
+  
   .aboutbodycontain {
     width: 340px;
   }
@@ -1070,9 +1068,7 @@ button:focus {
 
 
 @media screen and (max-width: 400px) {
-  h5 {
-    font-size: 27px;
-  }
+  
   .abouttitlewrap {
     top: -10px;
   }
@@ -1112,9 +1108,7 @@ button:focus {
   .aboutbodycontain {
     width: calc(82vw);
   }
-  h5 {
-    font-size: 25px;
-  }
+  
   .imagequote {
     font-size: 0.75em;
   }
