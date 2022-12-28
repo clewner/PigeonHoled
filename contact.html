@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    
+    <title>PigeonHoled</title>
+</head>
+<body>
+    <nav class="navbar" id ="navbar">
+        
+        <a href= "../" class = "firstlink"><img class = "logoimg" src = "../img/pigeoncrop.png" width = "50" height="41.7"></a>
+        
+        <div class = "otherlinks">
+            <a href= "../" class = "navlink link">Articles</a>
+            <a href= "contact.html" class = "navlink link selected">Contact</a>
+            <a href= "subscribe.html" class = "navlink link">Subscribe</a>
+            <a href= "about.html" class = "navlink link">About</a>
+        </div>
+        <div class="burgerwrapper">
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </nav>
+    <div id="hiddennavbar">
+        <div class="hiddenlinkwrapper">
+        <a href= "../" class = "hiddenlink link">Articles</a>
+        <a href= "contact.html" class = "hiddenlink link selected">Contact</a>
+        <a href= "subscribe.html" class = "hiddenlink link">Subscribe</a>
+        <a href= "about.html" class = "hiddenlink link">About</a>
+        </div>
+    </div>
+    <div class = "header" id ="dropdownheader"><a class="logowrapperheader" href="../index.html"><img class = "logoimgheader" src = "../img/pigeoncrop.png" width = "30"></a><h4 class = "articlebar">Contact Me</h4></div>
+
+    
+
+    <div class = "contacttitlewrap">
+        
+        <h4 class="contacttitle">Contact</h5>
+        <p class="contactparagraph firstparacontact">If you want my opinion on something, want me to read something, disagree with something I've said, or have any questions for me, I am happy to read your message.</p>
+        <p style="line-height:auto;" class="contactparagraph">Email me at:</p>
+        <p class="contactparagraph othersites emailpara">isaac.saxonov@gmail.com</p>
+        <form action="https://formsubmit.co/isaac.saxonov@gmail.com" method="POST" id="contactform">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            <input type="text" name="_honey" style="display:none">
+
+            <input type="text" id="contactname" name="name" class="contactinput" placeholder="Your name" required>
+            <div id="nameerror">Please enter your name</div>
+
+
+            <input type="email" id="contactemail" name="email" class="contactinput" placeholder="Your email address" required>
+            <div id="emailerror">Please enter a valid email address</div>
+            
+            <textarea type="text" id="contactmessage" name="message" class="contactinput messageinput" rows="10" placeholder="Your message" required></textarea>
+            <div id="messageerror">Please enter your message</div>
+            
+            <button class="button" type="button" onclick="validateContact()">Send</button>
+       </form>
+    </div>
+    <footer class = "contactfooter">
+        
+        <div class = "subscribeicon">
+            
+        <a class = "iconlinks" href = "subscribe.html"><svg class = "emailicon iconlinks" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+            <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+            <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+          </svg></a><a class="iconlinks" href="about.html"><svg class = "person" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg></a>
+         
+        </div>
+    </footer>   
+
+        
+
+        
+
+        
+
+    
+</body>
+</html>
