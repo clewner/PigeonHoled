@@ -567,10 +567,16 @@ input:focus {
 }
 
 .thankstitle {
+  
   font-size: 45px;
   padding: 0;
   margin: 0;
   margin-bottom: 15px;
+  color: black;
+  word-spacing: 0;
+  font-family: coolfont;
+  font-weight: 600;
+
 }
 
 .thanksparagraph {
