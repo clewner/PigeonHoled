@@ -249,11 +249,7 @@
 
 		    // On successful form submission, display a success message and reset the form
 		    if (resp.result == "success"){
-		        $('#mce-'+resp.result+'-response').show();
-		        $('#mce-'+resp.result+'-response').html(resp.msg);
-		        $('#mc-embedded-subscribe-form').each(function(){
-		            this.reset();
-		    	});
+		        window.location.replace("http://127.0.0.1:5500/thanks.html");
 
 		    // If the form has errors, display them, inline if possible, or appended to #mce-error-response
 		    } else {
@@ -298,8 +294,7 @@
 		        	// If index is -1 if means we don't have data on specifically which field was invalid.
 		        	// Just lump the error message into the generic response div.
 		            if (index == -1){
-		                $('#mce-'+resp.result+'-response').show();
-		                $('#mce-'+resp.result+'-response').html("Please enter a valid email address");      
+						window.location.replace("https://pigeonholed.co/subscribeconfirm");  
 
 		            } else {
 		                var fieldName = $("input[name*='"+fnames[index]+"']").attr('name'); // Make sure this exists (they haven't deleted the fnames array lookup)
@@ -308,8 +303,7 @@
 		                mc.mce_validator.showErrors(data);
 		            }
 		        } catch(e){
-		            $('#mce-'+resp.result+'-response').show();
-		            $('#mce-'+resp.result+'-response').html("Please enter a valid email address");
+		            window.location.replace("https://pigeonholed.co/subscribeconfirm");
 		        }
 		    }
 		}
