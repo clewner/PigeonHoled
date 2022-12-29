@@ -249,7 +249,7 @@
 
 		    // On successful form submission, display a success message and reset the form
 		    if (resp.result == "success"){
-		        window.location.replace("http://127.0.0.1:5500/thanks.html");
+		        window.location.replace("https://pigeonholed.co/subscribeconfirm");
 
 		    // If the form has errors, display them, inline if possible, or appended to #mce-error-response
 		    } else {
