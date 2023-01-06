@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="article.css" rel="stylesheet" type="text/css" />
+    <link href="articles/innovation.css" rel="stylesheet" type="text/css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="articles/articlescripts.js"></script>
+    
+    <title>What Is True Randomness?</title>
+</head>
+<body>
+    <nav class="navbar" id ="navbar">
+        
+        <a href= "../" class = "firstlink"><img class = "logoimg" src = "../img/pigeoncrop.png" width = "50" height="41.7"></a>
+        
+        <div class = "otherlinks">
+            <a href= "../" class = "navlink link">Articles</a>
+            <a href= "#" class = "navlink link">Contact</a>
+            <a href= "subscribe.html" class = "navlink link">Subscribe</a>
+            <a href= "about.html" class = "navlink link">About</a>
+        </div>
+        <div class="burgerwrapper">
+            <div class="hamburger" id="hamburger-1">
+                <span class="line lineone"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </nav>
+    <div id="hiddennavbar">
+        <div class="hiddenlinkwrapper">
+        <a href= "../" class = "hiddenlink link">Articles</a>
+        <a href= "#" class = "hiddenlink link">Contact</a>
+        <a href= "subscribe.html" class = "hiddenlink link">Subscribe</a>
+        <a href= "about.html" class = "hiddenlink link">About</a>
+        </div>
+    </div>
+    <div class = "header" id ="dropdownheader"><a class="logowrapperheader" href="../index.html"><img class = "logoimgheader" src = "../img/pigeoncrop.png" width = "30"></a><h4 class = "articlebar">What Is True Randomness?</h4></div>
+    <div class = "articleheader">
+        <span class = "author">Isaac Saxonov - January 6, 2023</span>
+        <h1 class = "articlename">What Is True Randomness?</h1>
+        
+    </div>
+    <div class="firstimgwrapper">
+        <img class = "firstimg" src="articles/articleimg/rng.jpeg">
+        <span class="imgcredit">Image Credit: Unknown</span>
+        <div class="prefacewrapper">
+            <div class="prefacewrappertwo">
+                <p class="preface">This piece explores what randomness really is, whether it truly exists, and how we might find it.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class = "articlebody">
+        
+        <p>If I told you to give me a random number, you would probably think that the task was too easy, that it could be completed with a simple google search of “random number generator.” But you would be wrong, and after accepting my challenge, you would quickly realize how much work you had just gotten yourself into.</p>
+        <p>You’re probably confused about why you can’t just get the number from the random number generator in the web browser on your phone or laptop. But if you think hard about how a computer works, you will struggle to find a reasonable way for it to actually generate these numbers. When the random number generator returns 37, where does that number come from?</p>
+        <p>Generating a random number is simple if you have a random event; you can just attach numbers to the possible outcomes and get the value based on what happens. The hard part is finding an event that is actually random.</p>
+        <p>And it seems sort of incongruous to think that a device constructed so intricately to work with extreme precision has any room for uncertainty. Perhaps there is a transistor or some other component inside the machine that is being monitored, and the number is generated based on how long it takes for it to fail, but not only is this method inconvenient and difficult to replicate, it also isn’t truly random.</p>
+        <p>One can determine whether or not any given electrical component will fail based on the conditions in which it is functioning. For any transistor, battery, or circuit, there is a known temperature, voltage and level of mechanical impact which, when reached, will cause the unit to give out. In other words, if you knew everything about the computer, then you would know when the monitored component would break, meaning that you would be able to determine which number would be generated. Thus, this method could not possibly generate a truly random number. (The actual way that computers generate “random” numbers is with something called a pseudo-random number generator which I will explain later.)</p>
+        <p>This is a common theme between things we mistakenly categorize as random. We think that it’s impossible to predict something when in reality, it’s just extremely difficult or implausible. The same goes for flipping a coin. It seems completely random because you can’t predict which face it will land on, but if you know everything about the conditions of the toss (what angle it was thrown at, how much power was used, etc) you can actually come to a definite conclusion about the outcome without tossing it. And it seems feasible that throwing it in a certain way may yield results that favor one side over the other, which further supports the idea that there are aspects of a coin flip that can be used to predict its result. Based on these characteristics, the outcome of a coin flip is also not truly random.</p>
+        <p>Moving forward, we should have a consistent definition of a random event, so for the sake of this semi-philosophical piece, I am defining a random event to be an event whose outcome cannot be predicted given any amount of info. A corollary to this definition would be that any event whose outcome can be predicted using prior knowledge is not random.</p>
+        <p>Using this definition, we can disprove the randomness of most events that are typically recognized as random by tracing their outcome back to an initial state, which, if known, would have allowed us to predict it with unquestionable certainty.</p>
+        <p>Extrapolating this reasoning, we come to a deterministic view of the world, one where everything that happens must happen, and stems solely from a single starting condition. Your coin lands on heads because of the subconscious decisions you made regarding how you tossed the coin. These subconscious decisions came from your mind which was shaped by your genetics. Your genetics come from your parents’ genetics whose decision to have you was based on their own. Though it is extremely simplified, this model demonstrates that you can trace the outcome of virtually any event back to specific factors then trace those factors back to other factors and so on.</p>
+        <p>If there really is no randomness and everything originates from something that happened before it, it follows that if you knew everything about our world, you could theoretically predict the outcome of any event before it occurs. It also means that if we were to restart the world, or go back to any point in its past, leaving everything unchanged, the exact same sequence of events would unfold. This has the unsettling implication that our entire lives are predetermined; we can’t do anything to change the future because it's entirely based on what has happened in the past. While this doesn’t have a real impact on our day to day lives, the idea evokes an existential sense of emptiness.</p>
+        <p>A more societally impactful consequence of a lack of randomness lies in the field of cryptography. Cryptography necessitates generating random numbers because numbers generated through a predictable process are easier to determine. And determining them would allow someone to break the encryption and access whatever information it was protecting. To put the importance of secure encryption into perspective, without it, all shared digital data would essentially be public knowledge. The privacy of every email, photo or video you send someone, would be at the mercy of the millions of strangers with the means to access them.</p>
+        <p>So what is truly random? What does the process of generating a true random number for encryption look like? The answer lies in the quantum realm.</p>
+        <p>While things on the quantum scale are notoriously complex, one axiom is certain: nothing makes sense. Standard intuition built through years of experience in the classical world does not apply to the quantum realm, and the notions of classical physics are fruitless in this extremely small scale.</p>
+        <p>In contrast to classical physics, where determinism is logically sound, determinism in the quantum realm has yet to be established conclusively. In fact, the general consensus is that quantum theory is indeterministic, that we can assign probabilities to certain quantum events, but not accurately predict them.</p>
+        <p>The most notable example of this phenomenon is radioactive decay. Every radioactive isotope has a scientifically determined half life—the amount of time it takes for half of that isotope to deteriorate. But a half life is less of a concrete determination and more of a probability model. The truth is that there is no (known) way to predict whether an individual radioactive atom will decay during a unit of time, we can only find its probability through observation.<sup>1</sup></p>
+        <p>Radioactive decay is actually one of the sources of entropy that true random number generators draw from in cryptography. The difference between true random number generators (which are used for more important tasks like encryption and lotteries), and pseudo random number generators (which are used for less important tasks like shuffling songs and flipping virtual coins) is that pseudo random number generators take human-created seeds and apply algorithms to them to simulate randomness, and true random number generators monitor external unpredictable phenomena to harness the more powerful randomness of the real world.</p>
+        <p>Along with monitoring radioactive decay, utilizing atmospheric noise is also a common method of creating a true random number generator. If you want to see one for yourself, visit <a href="https://www.random.org/" class="othersites">random.org</a>, whose generated numbers are used for lotteries, statistical applications, and online games.</p>
+        <p>To reliably predict <a href="https://www.random.org/" class="othersites">random.org</a>’s generated numbers, you would essentially need to know everything about every molecule in the planet’s weather system.<sup>2</sup> But even though predicting the numbers are virtually impossible, there is knowledge that (if known) could allow you to predict the number generated, thus, this random number generator is not truly random. It’s close enough to be classified as a true random number generator, but not enough to be classified as a truly random event. Atmospheric noise is a <i>chaotic</i> system, not an <i>indeterministic</i> one.</p>
+        <p>Even stretching to the bounds of chaos in our macroscopic world, we still can’t produce true randomness. If it exists, it must exist in the quantum realm.</p>
+        <p>But if quantum physics is truly indeterministic, doesn’t that imply that classical physics must be as well? The short answer is not really. The long answer is that because quantum physics operates on such a small scale, and an innumerable number of abnormalities at that level would have to happen to actually have an effect on the macroscopic world, classical physics is essentially still deterministic. Though if we were to restart the world from a point in its distant past, this would be enough time for differences at the quantum level to accumulate and eventually cause real change in the classical world. So for what little relief it’s worth, our lives don’t seem to be completely predetermined.</p>
+        <p>But what does this mean in terms of immediate needs for randomness? As technology keeps improving, so do the means of prediction. Once finding the seeds and algorithms that pseudo random number generators use becomes too easy, true random number generators will have to become the norm. Perhaps there will come a time where we actually are able to predict atmospheric noise, and at that point, using it as a source of randomness will no longer be useful either. Does that mean that in the end radioactive decay or some other quantum event will have to become the primary source of randomness?</p>
+        <p>From our current standpoint, it seems like that’s the path we’re going down. But foresight is less powerful than hindsight, and it’s possible that once we reach that point, quantum methods won’t be viable either.</p>
+        <p>There are still a lot of things we don’t understand about quantum mechanics and it could be the case that hidden variables are causing quantum events, that under the hood, quantum physics could be deterministic as well.</p>
+        <p>While we still can’t fully understand the quantum realm, one thing is for certain: randomness is much more complex than it seems.</p>
+
+        <div class = "bottomparts">
+            <p class = "footnotesone">1. See Dr. Christopher S. Baird's explanation of radioactive decay <a href="https://www.wtamu.edu/~cbaird/sq/2015/04/27/can-the-decay-half-life-of-a-radioactive-material-be-changed/" class="othersites">here</a>.</p>
+            <p class = "footnotestwo">2. See Dr. Mads Haahr's (creator of random.org) statement regarding the randomness of atmospheric noise on <a href="https://www.random.org/randomness/" class="othersites">random.org</a>.</p>
+            
+        </div>
+        
+    </div>
+    <footer class = "footer">
+        
+        <div class = "subscribeicon">
+            
+        <a class = "iconlinks" href = "subscribe.html"><svg class = "email iconlinks" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope-check" viewBox="0 0 16 16">
+            <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+            <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+          </svg></a><a class="iconlinks" href="about.html"><svg class = "person" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg></a>
+         
+        </div>
+    </footer>   
+    
+    
+</body>
+
+</html>
