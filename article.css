@@ -10,7 +10,7 @@ html{
     overflow-x: hidden;
     margin:0;
    padding:0;
-   
+   overflow-y:overlay;
    
 }
 
@@ -517,9 +517,21 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     
     }
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:500px) {
     .articlebar{
         font-size:16px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .articlebar{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .articlebar{
+        font-size:14px;
     }
 }
 
