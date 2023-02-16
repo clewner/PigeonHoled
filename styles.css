@@ -168,19 +168,25 @@ body {
   vertical-align: middle;
 }
 
-.articlebar {
+.articlebar{
   display: inline;
-  position: absolute;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  left: 50%;
+  position:absolute;
+  top:0;
+  margin:0;
+  padding:0;
+  left:50%;
   transform: translateX(-50%);
-  line-height: 55px;
-  font-family: "Jost", sans-serif;
-  font-weight: 600;
-  font-size: 19px;
-  color: black;
+  line-height:55px;
+  font-family: 'Jost', sans-serif;
+  font-weight:600;
+  font-size:19px;
+  color:black;
+  text-overflow: ellipsis;
+  width:50%;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  text-align:center;
 }
 
 .fixed {
@@ -1052,9 +1058,7 @@ button:focus {
 }
 
 @media screen and (max-width: 430px) {
-  .articlebar {
-    font-size: 16px;
-  }
+  
   .thankyoucontain {
     width: 220px;
   }
@@ -1124,9 +1128,7 @@ button:focus {
 }
 
 @media screen and (max-width: 365px) {
-    .articlebar {
-      font-size: 13px;
-    }
+    
     .contacttitlewrap{
         width:250px;
         top: 5px;
