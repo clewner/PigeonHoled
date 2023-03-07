@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,700;1,7..72,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,600&display=swap');
 
 @font-face {
     font-family: myFirstFont;
@@ -170,6 +170,12 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     overflow: hidden;
     
     text-align:center;
+}
+
+.italics{
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .articlename{
