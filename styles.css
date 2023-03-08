@@ -290,18 +290,36 @@ a {
   margin: 0;
 }
 
-.articleitem:first-child{
+.articleitem {
+  width: 350px;
+  position: relative;
+  padding: 0;
+  margin:0;
+  margin-bottom:40px;
+}
+
+.featureditem{
   grid-column: 1/3;
   width:97%;
 
 }
 
-.articleitem:first-child img{
+.featureditemleft{
+  grid-column: 1/3;
+  width:97%;
+}
+
+.featureditem img{
   width:60%;
   float:left;
 }
 
-.articleitem:first-child .textcontainer{
+.featureditemleft img{
+  width:60%;
+  float:right;
+}
+
+.featureditem .textcontainer{
   position: absolute;
   width:37.8%;
 
@@ -313,15 +331,21 @@ a {
 
 }
 
+.featureditemleft .textcontainer{
+  position: absolute;
+  width:37.8%;
 
+  left:0;
+  top:50%;
+  transform:translateY(-50%);
 
-.articleitem {
-  width: 350px;
-  position: relative;
-  padding: 0;
-  margin:0;
-  margin-bottom:40px;
+  text-align: left;
+
 }
+
+
+
+
 
 
 
@@ -977,8 +1001,8 @@ button:focus {
   .articleitem {
     width: 270px;
   }
-  .articleitem:first-child{
-    grid-column: 1;
+  .featureditem{
+    grid-column: auto;
     width: 270px;
     position: relative;
     padding: 0;
@@ -986,20 +1010,52 @@ button:focus {
     margin-bottom:40px;
 
   }
+  .featureditemleft{
+    grid-column: auto;
+    width: 270px;
+    position: relative;
+    padding: 0;
+    margin:0;
+    margin-bottom:40px;
+  }
+
+  /*cropimage cropimg */
   
-  .articleitem:first-child img{
+  .featureditem #parasite{
+    
     width:100%;
-    content:url("img/parasitecrop.jpg");
+    content: url("img/parasitecrop.jpg");
+    float:none;
+  }
+
+  .featureditemleft #nature{
+    
+    width:100%;
+    content: url("img/acadiacrop.jpg");
+    float:none;
+  }
+
+  .featureditemleft #innovation{
+    width:100%;
+    content: url("img/innocrop.jpeg");
     float:none;
   }
   
-  .articleitem:first-child .textcontainer{
+  .featureditem .textcontainer{
     position: relative;
     width:100%;
     top:0;
     transform:translateY(0);
     text-align: left;
   
+  }
+
+  .featureditemleft .textcontainer{
+    position: relative;
+    width:100%;
+    top:0;
+    transform:translateY(0);
+    text-align: left;
   }
 
  
@@ -1032,11 +1088,11 @@ button:focus {
     width: 300px;
   }
 
-  .articleitem:first-child{
-    grid-column: 1;
-  }
 
-  .articleitem:first-child{
+  .featureditem{
+    width:300px;
+  }
+  .featureditemleft{
     width:300px;
   }
 
