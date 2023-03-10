@@ -1047,6 +1047,12 @@ button:focus {
     content: url("img/innocrop.jpeg");
     float:none;
   }
+
+  .featureditem #chineseroom{
+    width:100%;
+    content: url("img/chineseroomcrop.jpg");
+    float:none;
+  }
   
   .featureditem .textcontainer{
     position: relative;
