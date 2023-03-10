@@ -1053,6 +1053,12 @@ button:focus {
     content: url("img/chineseroomcrop.jpg");
     float:none;
   }
+
+  .featureditem #castle{
+    width:100%;
+    content: url("img/castlecrop.png");
+    float:none;
+  }
   
   .featureditem .textcontainer{
     position: relative;
