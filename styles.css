@@ -1029,6 +1029,12 @@ button:focus {
     float:none;
   }
 
+  .featureditem #keller{
+    width:100%;
+    content: url("img/wavecrop.png");
+    float:none;
+  }
+
   .featureditemleft #nature{
     
     width:100%;
