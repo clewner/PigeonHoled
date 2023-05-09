@@ -1021,44 +1021,20 @@ button:focus {
   }
 
   /*cropimage cropimg */
+
+
+
+  .featureditem img{
+    width:100%;
+    float:none;
+  }
+
+  .featureditemleft img{
+    width:100%;
+    float:none;
+  }
   
-  .featureditem #parasite{
-    
-    width:100%;
-    content: url("img/parasitecrop.jpg");
-    float:none;
-  }
-
-  .featureditem #keller{
-    width:100%;
-    content: url("img/wavecrop.png");
-    float:none;
-  }
-
-  .featureditemleft #nature{
-    
-    width:100%;
-    content: url("img/acadiacrop.jpg");
-    float:none;
-  }
-
-  .featureditemleft #innovation{
-    width:100%;
-    content: url("img/innocrop.jpeg");
-    float:none;
-  }
-
-  .featureditem #chineseroom{
-    width:100%;
-    content: url("img/chineseroomcrop.jpg");
-    float:none;
-  }
-
-  .featureditem #castle{
-    width:100%;
-    content: url("img/castlecrop.png");
-    float:none;
-  }
+  
   
   .featureditem .textcontainer{
     position: relative;

@@ -513,6 +513,12 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
     }
 }
 
+@media screen and (max-width:500px){
+    .articlename{
+        font-size:32px;
+    }
+}
+
 @media screen and (max-width:450px){
     .articlebody{
         width:350px;
@@ -537,6 +543,10 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
 @media screen and (max-width:400px){
     .articlebody{
         width:320px;
+    }
+
+    .articlename{
+        font-size:25px;
     }
 
     .firstimgwrapper{
@@ -583,9 +593,7 @@ sup { vertical-align: top; position: relative; top: -0.5em; }
         width:270px;
         
     }
-    .articlename{
-        font-size:35px;
-    }
+
 }
 
 
