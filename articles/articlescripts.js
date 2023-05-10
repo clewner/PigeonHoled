@@ -1,4 +1,18 @@
+var isMobile;
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ){
+      isMobile = true;
+    }
+
 $(document).ready(function() {
+  if(isMobile){
+    $("h1").css("letter-spacing", "-2px");
+
+
+  }
 
     
     var header = $("#dropdownheader");
