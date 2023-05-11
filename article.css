@@ -121,7 +121,7 @@ p{
 /*For all */
 
 
-.articlebody p:first-of-type::first-letter{
+.articlebody > p:first-of-type::first-letter{
     float: left;
     font-family: Georgia, serif;
     font-size: 65px;
